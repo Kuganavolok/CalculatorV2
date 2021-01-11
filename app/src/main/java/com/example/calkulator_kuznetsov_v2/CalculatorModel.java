@@ -2,8 +2,8 @@ package com.example.calkulator_kuznetsov_v2;
 
 public class CalculatorModel {
 
-    private int firstArg;
-    private int secondArg;
+    private double firstArg;
+    private double secondArg;
 
     private StringBuilder inputStr = new StringBuilder();
 

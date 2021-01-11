@@ -116,4 +116,8 @@ public class CalculatorModel {
         return inputStr.toString();
 
     }
+    public void reset() {
+        state = State.firstArgInput;
+        inputStr.setLength(0);
+    }
 }

@@ -21,7 +21,7 @@
         android:paddingRight="16dp"
 
 
-        android:text="123456789"
+        android:text="0"
         android:background="@drawable/input_text"
 
         />
@@ -153,9 +153,10 @@
                 android:id="@+id/division"
                 style="@style/calc_button"
                 android:text="/"/>
-            <View
+            <Button
+                android:id="@+id/reset"
                 style="@style/calc_button"
-                android:visibility="invisible"/>
+                android:text="C"/>
 
         </LinearLayout>
     </LinearLayout>

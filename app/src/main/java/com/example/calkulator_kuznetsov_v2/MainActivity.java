@@ -64,5 +64,12 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < actionsIds.length; i++ ) {
             findViewById(actionsIds[i]).setOnClickListener(actionsButtonOnClickListener);
         }
+        findViewById(R.id.reset).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                calculator.reset();
+                text.setText(calculator.getText());
+            }
+        });
     }
 }
